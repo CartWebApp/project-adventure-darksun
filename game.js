@@ -80,7 +80,6 @@ function selectOption(option) {
 } //shows the next text, and assigns options
 
 
-
 // figure out how to change images alongside the info
 const textNodes = [
     { // PLACEHOLDER 
@@ -118,10 +117,12 @@ const textNodes = [
             {
                 text: 'Go to the local library.',
                 nextText: 2,
+                setState: { wizard: false, weapon: false },
             },
             {
                 text: 'Go to the local magic library.',
                 nextText: 3,
+                setState: { wizard: false, weapon: false },
             }
         ]
     },
